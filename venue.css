@@ -1,0 +1,101 @@
+body{
+    font-size: large;
+}
+/*                 section                    */
+.section{
+    background-color:#293f50;
+    line-height: 1.5;
+    height: 250px;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+   
+    
+}
+/*                conference(style template)                   */
+.conference{
+   display: inline-block;
+   width: 100%;
+   position: relative;
+   left: 200px;
+   top: 30px;
+
+}
+
+/*                   conference1(links)                        */
+.conference1{
+    float: right;
+    position: relative;
+    bottom: 100px;
+    right: 100px;
+    direction: rtl;
+}
+/*                   links                         */
+a{
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #648880;
+}
+a.active{
+    color: #648880;
+}
+
+/*                venue(about)                  */
+.venue{
+    background-image:url(https://www.solidbackgrounds.com/images/1280x1024/1280x1024-light-steel-blue-solid-color-background.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    height: 250px;
+    text-align: center;
+}
+/*                  theater                   */
+.theater{
+   display:flex;
+   position: relative;
+   left: 400px;
+}
+/*               theater >div                  */
+.theater >div{
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+/*                  hotel                      */
+.hotel{
+    display:flex;
+    position: relative;
+    left: 450px;
+ }
+/*                  hotel >div                 */
+ .hotel >div{
+    position: relative;
+    right: 30px;
+    padding-right: 60px;
+ }
+
+/*                            footer                                          */
+ footer{
+    background-color:#293f50;
+    width: 2900px;
+    height: 200px;
+    position:relative; 
+    right: 1450px; 
+ 
+ }
+/*                      footer div(style conference)                         */
+ footer >div{
+    text-align: center;
+    padding-left: 500px;
+    padding-top: 30px;
+ }
+/*                         footer >foot(links)                           */
+ .foot{
+   text-align: center;
+   padding-left: 2200px;
+   position: relative;
+   bottom: 150px;
+  
+ }

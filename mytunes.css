@@ -1,0 +1,147 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height:2;
+   font-style: italic;
+}
+
+/*                         NavBar                           */
+
+.links{
+    display: inline-block;
+    background-color: rgb(88, 86, 86);
+    width:100% ;
+    height: 70px;
+    padding-top: 20px;
+    padding:20px 0px 0px 0px;
+   
+}
+   
+/*                       anchor tag                      */
+a{  text-decoration: none;
+    margin: 20px;
+    color: white;
+    display: inline-block;
+}
+a:hover{
+border-bottom:5px solid rgb(139, 181, 237);
+}
+a.active{
+    border-bottom:5px solid rgb(139, 181, 237);
+}
+
+/*                  myTunes Template                    */
+
+.main{
+    background-image:url(https://redpenofdoomdotcom.files.wordpress.com/2022/07/pexels-pixabay-210766.jpg?w=1024&h=681&crop=1);
+    background-repeat:round ;
+    color: white;
+    background-size: cover;
+    width:100% ;
+    height: 600px; ;
+    text-align: center;
+    padding-top: 250px ;
+    font-size: 20px;
+  
+}
+
+/*                               myTunes Music Template                               */
+.music{
+    font-size: 25px;
+    background-color: rgb(61, 60, 60) ;
+    text-align: center;
+    color: white;
+    padding: 40px 200px 0 200px;
+    position: relative;
+    bottom: 100px; 
+}
+ 
+
+/*                   start free trail now & read more button                            */
+input{
+    padding: 20px;
+    background-color: red;
+    color: white;
+    font-size:20px;
+}
+
+/*                      movie and TV collection myTunes                                  */
+.div1{
+    text-align: center;
+    padding: 0px 200px;
+    position: relative;
+    bottom: 120px;
+   
+}
+
+/*                           myTunes available everywhere template                                            */
+.div2{
+    background-image:url(https://jolly-kalam-23776e.netlify.app/mytunes/img/section-bg.jpeg) ;
+    background-size: cover;
+    background-repeat: round;
+    height: 500px;
+    color: white;
+    padding: 200px 200px 20px 200px;
+    text-align: center;
+    position: relative;
+    bottom: 120px;
+
+}
+
+/*                              Gift Card                           */
+.div3{
+    float: left;
+    padding: 20px 70px;
+    position: relative;
+    bottom: 200px;
+}
+
+/*                            Gift Card About                       */
+.div4{
+ width: 800px;
+ float: right;
+ text-align: justify;
+ margin-left: 50px;
+ position: relative;
+ bottom: 200px;
+   
+}
+
+/*                           footer                                 */
+.container{
+   display: flex;
+   background-color: rgb(45, 42, 42);
+   padding: 20px 10px 20px 20px;
+   justify-content: space-around;
+   width: 100%;
+   position: relative;
+   bottom: 200px;
+   
+}
+
+/*                       footer items                               */
+.item{
+    display:inline-block;
+    color: white;
+}
+ 
+
+/*                         Copyright                                 */
+.div5{
+    background-color: rgb(88, 86, 86);
+    width:100%;
+    height: 100px;
+    padding-top:20px ;
+    text-align:center ;
+    width: 100%;
+    position: relative;
+    bottom: 200px;
+    clear: bottom;
+}
+
+
+

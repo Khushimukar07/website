@@ -1,0 +1,124 @@
+body{
+    font-size: large;
+}
+/*                 section                    */
+.section{
+    background-color:#293f50;
+    line-height: 1.5;
+    height: 250px;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+/*                conference(style template)                   */
+.conference{
+   display: inline-block;
+   width: 100%;
+   position: relative;
+   left: 200px;
+   top: 30px;
+
+}
+
+/*                conference1(links)                   */
+.conference1{
+    float: right;
+    position: relative;
+    bottom: 100px;
+    right: 100px;
+    direction: rtl;
+}
+
+/*                   links                         */
+a{
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #648880;
+}
+a.active{
+    color: #648880;
+}
+/*                  schedule(about)                                */
+.schedule{
+    background-image:url(https://www.solidbackgrounds.com/images/1280x1024/1280x1024-light-steel-blue-solid-color-background.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    height: 200px;
+    text-align: center;
+}
+/*                      containers                                       */
+.container{
+    display: flex;
+    margin-left: 300px;
+}
+/*                       flex                                    */
+.flex{
+    margin-left: 50px;
+}
+
+.container2{
+    display: flex;
+    position: relative;
+    right: 150px;   
+}
+
+.flex2{
+    margin-left: 50px;
+ 
+}
+.container3{
+    display: flex;
+    position: relative;
+    right: 150px;    
+  
+}
+.flex3{
+    margin-left: 50px;
+ 
+}
+/*                                tags                                    */
+h1,h2{
+    color:#2F387B;  
+}
+h4{
+   color:#040404;
+}
+p{
+    font-size:30px;
+}
+time{
+    display: block;
+    padding-top: 50px;
+    color:#565656;
+}
+
+/*                            footer                                          */
+footer{
+    display:flex;
+    background-color:#293f50;
+    width: 1900px;
+    height: 200px;
+    position:relative; 
+    right: 1450px;
+    top: 1300px
+
+}
+/*                      footer div(style conference)                         */
+footer >div{
+    padding-left: 250px;
+    padding-top: 30px;
+   
+}
+/*                         footer >foot(links)                           */
+footer > .foot{
+   position: relative;
+   top: 60px;
+   left: 100px;
+
+  
+}

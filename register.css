@@ -1,0 +1,122 @@
+body{
+    word-spacing: 4px;
+    font-size: large;
+}
+
+/*                 section                    */
+
+.section{
+    background-color:#293f50;
+    line-height: 1.5;
+    height: 250px;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+   
+}
+
+/*                conference(style template)                   */
+.conference{
+   display: inline-block;
+   width: 100%;
+   position: relative;
+   left: 200px;
+   top: 30px;
+
+}
+
+/*                conference1(links)                   */
+.conference1{
+    float: right;
+    position: relative;
+    bottom: 100px;
+    right: 100px;
+    direction: rtl;
+}
+
+/*                   links                         */
+a{
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #648880;
+}
+a.active{
+    color: #648880;
+}
+/*                           register(about)                              */
+.register{
+    background-image:url(https://www.solidbackgrounds.com/images/1280x1024/1280x1024-light-steel-blue-solid-color-background.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    height: 200px;
+    text-align: center;
+
+}
+/*                           tags                                     */
+p{
+    font-size: 30px;
+}
+h1,h3,form{
+    color:#2F387B;
+} 
+h4{
+    color: #4a4f53;
+    line-height: 1.5;
+}
+
+/*                           register1                              */
+
+.register1{
+float: left;
+width: 700px;
+position: relative;
+left: 200px;
+text-align: justify;
+margin-top: 20px;
+}
+
+/*                           register2(form)                              */
+
+.register2{
+float: right;
+width: 300px;
+position: relative;
+right: 200px;
+margin-top: 20px;
+
+}
+/*                           form element                                    */
+input{
+    padding: 10px;
+    width: 200px;
+}
+select{
+    padding: 8px;
+}
+
+/*                            footer                                          */
+footer{
+    display: flex;
+    background-color:#293f50;
+    position: relative;
+    top: 30px;
+    width: 100%;
+   
+}
+
+/*                      footer div(style conference)                         */
+footer >div{
+    position: relative;
+    left: 200px;
+}
+
+/*                         footer >foot(links)                           */
+.foot{
+    position: relative;
+    left: 600px;
+    bottom: 80px;
+}

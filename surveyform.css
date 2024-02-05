@@ -1,0 +1,71 @@
+body{
+    padding: 0%;
+    margin: 0;
+}
+/*                             container                                 */
+.container{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/197/246/large_2x/glowing-neon-line-clipboard-with-checklist-icon-isolated-on-brick-wall-background-control-list-symbol-survey-poll-or-questionnaire-feedback-form-illustration-isolated-on-brick-wall-vector.jpg);
+    background-size: cover;
+    background-repeat:round;
+    padding-top: 20px;
+    position: scroll;
+}
+/*                            item(about surveyform)                       */
+.item{
+    color: white;
+    text-align: center;
+}
+/*                            item(Enter text )                       */
+.item1{
+    background-image: url(https://th.bing.com/th/id/R.82820ba6117ee323a0692bcc94b91f13?rik=AhBCnHDoWhWkWQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fTN2ZHuz.jpg&ehk=l2oocnh9rK%2bb5UMLgk766k7ORFq%2bXdGW0Kl6B2Yf%2fSA%3d&risl=&pid=ImgRaw&r=0);
+    width: 600px;
+    color: white;
+    margin-left :30%; ;
+   
+}
+/*                            item2( radio button )                       */
+.item2 >input{
+    position: relative;
+    right: 150px; 
+}
+
+ label{
+  position: relative;
+  right: 300px;
+ }
+
+/*                            item3(checkbox )                       */
+
+.item3 >input{
+   position: relative;
+   right: 150px;
+}
+
+/*                            item(submit button )                       */
+.item4{
+    text-align: center;
+}
+
+/*                            form elements                       */
+form{
+    margin: 20px;
+    padding: 10px;
+}
+.item4 >input{
+    background-color: green;
+    color: white;
+    width: 500px;
+    font-size: 20px;
+    text-align: center;
+}
+input{
+    padding: 10px;
+    width: 350px;
+
+}
+select{
+    padding: 10px;
+    width: 370px;
+}
+
+    

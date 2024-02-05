@@ -1,0 +1,122 @@
+
+body{
+    font-size: large;
+}
+/*                 section                    */
+.section{
+    background-color:#293f50;
+    line-height: 1.5;
+    height: 500px;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+   
+    
+}
+/*                conference(style template)                   */
+.conference{
+   display: inline-block;
+   width: 100%;
+   position: relative;
+   left: 200px;
+   top: 30px;
+
+}
+
+/*                conference1(links)                   */
+.conference1{
+    float: right;
+    position: relative;
+    bottom: 100px;
+    right: 100px;
+    direction: rtl;
+
+}
+
+/*                conference2(para line)                    */
+.conference2{
+    text-align: centre;
+    position :relative;
+    left: 450px;
+    top: 60px; 
+}
+
+/*                conference3(para line)                    */
+.conference3{
+text-align: center;
+position :relative;
+left: 30px;
+top: 60px;
+}
+
+/*                conference4(register button)                   */
+.conference4{
+    text-align: center;
+    position :relative;
+    left: 50px;
+    top: 60px;
+}
+/*                  anchor tag(register button)                     */                                             
+.conference4 >a :hover{
+    background-color: white;
+    color: #648880;
+}
+ 
+/*                   links                         */
+a{
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #648880;
+}
+a.active{
+    color: #648880;
+}
+
+/*                 registration button               */
+input{
+    background-color:#293f50;
+    border: 1px solid white;
+    padding: 20px;
+    color: white;
+    font-size: large;
+  
+}
+
+/*                    container                         */
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+  
+}
+
+/*                      items                            */
+.item{
+    display: inline-block;
+    color:#648880;;
+    
+}
+/*                          footer                              */
+footer{
+    display: flex;
+    width: 1450px;
+    background-color:#293f50;
+    height: 150px;
+}
+/*                      footer div(style conference)                         */
+footer >div{
+    padding-left: 100px;
+    padding-bottom: 20px;
+
+}
+  
+/*                         footer >.foot(links)                           */
+footer >.foot{
+   position: relative; 
+   top: 60px;
+   left: 400px;
+  
+}
